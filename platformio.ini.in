@@ -1,0 +1,8 @@
+[env:arduinodue]
+platform = atmelsam
+board = due
+framework = arduino
+upload_port = @UPLOAD_PORT
+
+lib_deps = 
+    ArduinoJson
